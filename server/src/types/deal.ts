@@ -5,7 +5,7 @@ export interface Deal {
 
   created_date: string;
   
-  closed_date?: string;
+  closed_date: string | null;
   
   
   stage: string;
