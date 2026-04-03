@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import dealRoutes from "./routes/deal.ts";
+import simulationRoutes from "./routes/simulation.ts";
 
 
 dotenv.config();
@@ -16,7 +17,9 @@ app.get("/", (req, res) => {
 });
 
 
-app.use("/api", dealRoutes);
+// app.use("/api", dealRoutes); //testing 
+
+app.use("/api", simulationRoutes);
 
 const PORT = process.env.PORT || 5000;
 
