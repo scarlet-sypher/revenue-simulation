@@ -24,8 +24,8 @@ export const runSimulation = (
 ) => {
     
 
-    const conversionChange = input.conversionChange || 0;
-    const dealSizeChange = input.dealSizeChange || 0;
+    const conversionChange = input.conversionChange ?? 0;
+    const dealSizeChange = input.dealSizeChange ?? 0;
     const salesCycleChange = input.salesCycleChange ?? 0;
     
     const baseline: number[] = [];
@@ -67,7 +67,7 @@ export const runSimulation = (
     const percentageImpact = baseTotal === 0 ? 0 : round((absoluteImpact / baseTotal) * 100);
 
     const drivers: string[] = [];
-    
+
     if (conversionChange > 0) drivers.push("higher conversion rate");
     if (conversionChange < 0) drivers.push("lower conversion rate");
     if (dealSizeChange > 0) drivers.push("larger average deal size");

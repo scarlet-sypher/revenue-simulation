@@ -29,9 +29,10 @@ export const simulate = async (req: Request, res: Response) => {
 
   } 
 
-  catch {
-
+  catch (err) {
+    console.error("error: ", err);
     res.status(500).json({ error: "Server error" });
   }
+
   
 };
