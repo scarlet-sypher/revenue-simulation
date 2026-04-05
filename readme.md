@@ -14,7 +14,7 @@
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-4CAF50?style=for-the-badge)](#)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-4CAF50?style=for-the-badge)](https://revenue-simulation.vercel.app/)
 
 *Run "what-if" scenarios on your Q3 revenue — powered by real Q1 & Q2 sales data* 🚀
 
@@ -502,7 +502,7 @@ Built as part of a revenue simulation assignment.
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🌐_Try_It_Now-Visit_App-4CAF50?style=for-the-badge)](#)
+[![Live Demo](https://img.shields.io/badge/🌐_Try_It_Now-Visit_App-4CAF50?style=for-the-badge)](https://revenue-simulation.vercel.app/)
 [![Contribute](https://img.shields.io/badge/🤝_Contribute-Fork_Repo-FF6B6B?style=for-the-badge)](https://github.com/scarlet-sypher/revenue-simulation/fork)
 
 ---
