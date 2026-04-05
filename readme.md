@@ -478,7 +478,7 @@ Q3 forecast from Q1 & Q2 data — no adjustments applied.
 
 > 📽️ [Watch the demo on Google Drive / Loom](#)
 >
-> *(Replace `#` with your actual link)*
+> *(https://drive.google.com/file/d/1OrwOulgyg6q3D-UHwSuZUbz1I_o33pYA/view?usp=drive_link)*
 
 ---
 
